@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,6 +9,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* body::-webkit-scrollbar{
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  /* IE and edge */
+  /* scrollbar-width: none; */
+  /* firefox */
+/* }  */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
